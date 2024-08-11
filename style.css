@@ -147,6 +147,11 @@ header {
 
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+  transition: ease 400ms;
+}
+.squard-header-img:hover {
+  transform: scale(1.1);
 }
 .squard-header-img img {
   width: 100%;
@@ -174,12 +179,18 @@ header {
   margin: 0px 90px;
   margin-top: 30px;
   padding-bottom: 30px;
+  cursor: pointer;
 }
+
 .squard {
   max-width: 200px;
   border-radius: 10px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: ease 400ms;
+}
+.messi-squard .squard:hover {
+  transform: scale(1.1);
 }
 .squard img {
   width: 100%;
@@ -194,6 +205,34 @@ header {
   padding-bottom: 7px;
 }
 
+/* ======footer section======*/
+.footer-content {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content img {
+  max-width: 300px;
+  margin-right: 40px;
+}
+.social i {
+  font-size: 1.6rem;
+  color: black;
+  padding-right: 5px;
+  margin-bottom: 10px;
+  transition: ease 500ms;
+}
+.social i:hover {
+  color: #5a639c;
+  transform: scale(1.1);
+}
+.footer-content h4 {
+  margin-top: 8px;
+  font-size: 0.8rem;
+}
 /* ======Responsive Media Quary ====== */
 
 @media screen and (max-width: 576px) {
