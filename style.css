@@ -171,7 +171,7 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
-  margin: 0px 100px;
+  margin: 0px 90px;
   margin-top: 30px;
   padding-bottom: 30px;
 }
@@ -226,8 +226,20 @@ header {
   .about-right img {
     margin-top: -25px;
   }
+  .squard-header-img {
+    max-width: 280px;
+  }
   .messi-squard {
-    margin: 0 88px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 108px;
     margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  .squard {
+    max-width: 260px;
+  }
+  .squard img {
+    width: 100%;
   }
 }
